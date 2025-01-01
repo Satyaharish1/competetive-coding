@@ -83,13 +83,13 @@ int main() {
     pushMinStack(&minStack, 5);
     pushMinStack(&minStack, 15);
 
-    printf("Current Minimum: %d\n", getMinimum(&minStack)); // Output: 5
+    printf("Current Minimum: %d\n", getMinimum(&minStack)); 
 
     popMinStack(&minStack);
-    printf("Current Minimum: %d\n", getMinimum(&minStack)); // Output: 5
+    printf("Current Minimum: %d\n", getMinimum(&minStack)); 
 
     popMinStack(&minStack);
-    printf("Current Minimum: %d\n", getMinimum(&minStack)); // Output: 10
+    printf("Current Minimum: %d\n", getMinimum(&minStack));
 
     return 0;
 }
